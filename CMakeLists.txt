@@ -643,11 +643,11 @@ if(BUILD_TESTS)
     )
   endif()
 
-  add_openr_test(DualTest dual_test
-    SOURCES
-      openr/dual/tests/DualTest.cpp
-    DESTINATION sbin/tests/openr/dual
-  )
+#  add_openr_test(DualTest dual_test
+#    SOURCES
+#      openr/dual/tests/DualTest.cpp
+#    DESTINATION sbin/tests/openr/dual
+#  )
 
   add_openr_test(LinkStateTest link_state_test
     SOURCES
